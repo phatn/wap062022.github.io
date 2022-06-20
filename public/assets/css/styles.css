@@ -1,0 +1,18 @@
+#container {
+    width: 100%;
+    margin: auto;
+}
+
+.my-photo img {
+    width: 10rem;
+    height: 11rem;
+}
+
+.nav-assignment li {
+    padding: .3rem;
+}
+
+.validation-checker img {
+    width: 6.25rem;
+    height: 2.2rem;
+}
