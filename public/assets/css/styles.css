@@ -8,10 +8,21 @@
     height: 11rem;
 }
 
-.nav-assignment li {
-    padding: .3rem;
+.nav-assignment ul {
+    width: 22rem;
 }
 
+.nav-assignment  li {
+    padding: .2rem;
+}
+
+.nav-assignment  li a {
+   display: block;
+}
+
+.nav-assignment a:hover {
+    color: coral;
+}
 .validation-checker img {
     width: 6.25rem;
     height: 2.2rem;
