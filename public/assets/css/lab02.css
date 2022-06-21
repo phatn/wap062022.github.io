@@ -1,0 +1,38 @@
+body {
+    background-color: #133337;
+    color: #FFF;
+}
+
+#about-me {
+    padding: .5rem;
+}
+
+.mood-img  img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.item .heading {
+    color: #895804;
+    font-size: 1.5rem;
+}
+
+.movies a {
+    color: #d53333;
+}
+
+.emphasize {
+    color: #895804;
+}
+
+.fav-movie-note {
+    font-style: italic;
+}
+
+.divider {
+    border-top: solid 1px #c6c6c6;
+}
+
+header > h1 {
+    font-size: 3rem;
+}
