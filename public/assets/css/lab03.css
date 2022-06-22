@@ -1,0 +1,136 @@
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: stretch;
+    padding: 1.2rem 0.5rem 0.5rem 0.5rem;
+    background-color: #282A35;
+    color: #f1f1f1;
+    font-size: 1.2rem;
+}
+
+.logo, .greeting, .logout {
+    display: flex;
+}
+
+.logout a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.logout a:hover {
+    color: #c6c6c6;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo img {
+    width: 3rem;
+    height: 2.5rem;
+}
+.greeting {
+    justify-content: center;
+    width: 60%;
+}
+
+.logout {
+    flex-direction: row-reverse;
+    width: 20%;
+}
+
+main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+table, tr, td, th {
+    border: 1px solid #eeeee4;
+    border-collapse: collapse;
+    padding: 1rem;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    background-color: #eeeee4;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(0,0,0,.05);
+
+}
+
+.product-list {
+    margin-top: 4rem;
+}
+.shopping-cart {
+    margin-top: 4rem;
+}
+.place-order {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.heading {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.cart {
+    width: 3rem;
+    height: 2rem;
+
+}
+
+.cart img {
+    background-color: rgba(0,0,0,.05);
+}
+.cart-total {
+    text-align: right;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.product-quantity {
+    width: 2rem;
+    text-align: center;
+}
+
+.quantity-button {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.plus {
+    background-color: #4CAF50; /* Green */
+}
+
+.deduct {
+    background-color: red; /* Green */
+}
