@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WAP 2022 - Lab04</title>
+    <link rel="icon" type="image/x-icon" href="public/assets/img/favicon.png">
+    <link rel="stylesheet" href="public/assets/css/lab04.css">
+</head>
+<body>
+<div id="container">
+    <nav>
+        <div class="title">
+            Workshop Registration
+        </div>
+        <div class="actions">
+           <div class="actions-nav">More Action <img src="public/assets/img/dropdown-icon.png" alt="dropdown" /></div>
+           <ul class="sub-actions">
+               <li><a href="#">Open Account</a></li>
+               <li><a href="#">Register Events</a></li>
+               <li><a href="#">Logout</a></li>
+           </ul>
+
+        </div>
+
+    </nav>
+    <main>
+        <div class="heading">Register now while seats are available!</div>
+        <div class="register-info">
+            <div class="column left">
+                <div class="row">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name" required>
+                </div>
+                <div class="row">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name" required>
+                </div>
+                <div class="row">
+                    <label for="company">Company/Institution</label>
+                    <input type="text" name="company-name" id="company" required>
+                </div>
+                <div class="row">
+                    <label for="address">Address</label>
+                    <textarea name="address" id="address" required></textarea>
+                </div>
+                <div class="row">
+                    <label for="city">City</label>
+                    <input type="text" name="city" id="city">
+                </div>
+                <div class="row">
+                    <label for="state">State/Province/Region</label>
+                    <select id="state">
+                        <option>---Select---</option>
+                        <option>Alabama</option>
+                        <option>Alaska</option>
+                        <option>Arizona</option>
+                        <option>Iowa</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <label for="country">Country</label>
+                    <select id="country">
+                        <option>---Select---</option>
+                        <option>USA</option>
+                        <option>China</option>
+                        <option>Vietnam</option>
+                        <option>Brazil</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="row">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone" required>
+                </div>
+            </div>
+            <div class="column right">
+                <div class="heading">Lunch</div>
+                <div class="row">
+                    <label for="meal-preference">Meal Preference</label>
+                    <select id="meal-preference">
+                        <option>Vegetarian</option>
+                        <option>Standard</option>
+                        <option>Pescetarian</option>
+                        <option>Lacto-vegetarian</option>
+                    </select>
+                </div>
+                <div class="heading">Payment Details</div>
+                <div class="row">
+                    <label>Payment Mode</label>
+                    <div class="payment-mode">
+                        <div><input type="checkbox" id="cash"> <label class="payment-mode-lbl" for="cash">Cash</label></div>
+                        <div><input type="checkbox" id="cheque"> <label class="payment-mode-lbl" for="cheque">Cheque</label></div>
+                        <div><input type="checkbox" id="demand-draft"> <label class="payment-mode-lbl" for="demand-draft">Demand Draft</label></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="check-no">DD/Cheque No.</label>
+                    <input type="text" name="check-no" id="check-no">
+                </div>
+                <div class="row">
+                    <label for="bank-name">Drawn On (Bank Name)</label>
+                    <input type="text" name="bank-name" id="bank-name">
+                </div>
+                <div class="row">
+                    <label for="payable-at">Payable at</label>
+                    <input type="text" name="payable-at" id="payable-at">
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="register-action">
+        <button class="button">Submit</button>
+        <span class="register-action-space"></span>
+        <button class="button">Reset</button>
+    </div>
+</div>
+</body>
+</html>

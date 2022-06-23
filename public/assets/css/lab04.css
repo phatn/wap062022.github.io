@@ -1,0 +1,148 @@
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#container {
+    margin-top: 0;
+    padding-top: 0;
+    border: 1px solid #c6c6c6;
+}
+
+nav {
+    display: flex;
+    align-items: stretch;
+    padding: 1.2rem 0.5rem 0.5rem 1.2rem;
+    background-color: #282A35;
+    color: #f1f1f1;
+    font-size: 1.2rem;
+}
+
+main {
+    margin-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.actions {
+    margin-left: 2rem;
+    font-size: 0.9rem;
+    position: relative;
+}
+
+.actions img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.actions-nav {
+    cursor: pointer;
+}
+
+.actions:hover ul.sub-actions {
+    display: block;
+}
+
+ul.sub-actions {
+    display: none;
+    list-style-type: none;
+    background-color: #133337;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 1.5rem;
+    left: 2rem;
+}
+
+.actions ul > li a {
+    display: block;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: #c6c6c6;
+    text-decoration: none;
+    width: 12rem;
+}
+
+.actions ul > li a:hover {
+    background-color: #4CAF50;
+    color: #f1f1f1;
+}
+.heading {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-decoration: underline;
+}
+
+.register-info {
+    display: flex;
+    margin: 0 auto;
+}
+
+.column {
+    flex: 50%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.left {
+    margin-right: 3rem;
+}
+
+.register-info input[type=text] {
+    width: 20rem;
+}
+
+.payment-mode {
+    width: 20.7rem;
+}
+
+.register-info textarea {
+    height: 10rem;
+    width: 20.2rem;
+}
+
+.register-info select {
+    width: 20.5rem;
+    height: 2rem;
+    text-align: center;
+}
+
+.register-info input[type=text]  {
+    height: 1.5rem;
+}
+
+.register-info label {
+    font-weight: bold;
+}
+
+label.payment-mode-lbl {
+    font-weight: normal;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+.register-action {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    padding: 1.2rem 0.5rem 0.5rem 0.5rem;
+    background-color: rgb(220, 220, 220);
+    color: #f1f1f1;
+    font-size: 1.2rem;
+}
+
+.register-action-space {
+    width: 0.7rem;
+}
+
