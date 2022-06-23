@@ -3,6 +3,7 @@
 }
 
 #container {
+    width: 100%;
     margin-top: 0;
     padding-top: 0;
     border: 1px solid #c6c6c6;
@@ -19,8 +20,8 @@ nav {
 
 main {
     margin-top: 2rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .actions {
@@ -65,6 +66,7 @@ ul.sub-actions {
     background-color: #4CAF50;
     color: #f1f1f1;
 }
+
 .heading {
     margin-bottom: 1rem;
     margin-top: 1rem;
@@ -73,7 +75,6 @@ ul.sub-actions {
 
 .register-info {
     display: flex;
-    margin: 0 auto;
 }
 
 .column {
@@ -88,7 +89,7 @@ ul.sub-actions {
 }
 
 .left {
-    margin-right: 3rem;
+    margin-right: 10rem;
 }
 
 .register-info input[type=text] {
@@ -110,7 +111,7 @@ ul.sub-actions {
     text-align: center;
 }
 
-.register-info input[type=text]  {
+.register-info input[type=text] {
     height: 1.5rem;
 }
 
@@ -132,6 +133,7 @@ label.payment-mode-lbl {
     display: inline-block;
     font-weight: bold;
 }
+
 .register-action {
     margin-top: 3rem;
     display: flex;
@@ -146,3 +148,145 @@ label.payment-mode-lbl {
     width: 0.7rem;
 }
 
+@media only screen and (max-width: 600px) {
+
+    main {
+        margin-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .register-info {
+        display: block;
+
+    }
+
+    .column {
+        flex: none;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+
+    main {
+        margin-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .register-info {
+        display: block;
+
+    }
+
+    .column {
+        flex: none;
+    }
+
+    .register-info input[type=text] {
+        width: 33rem;
+    }
+
+    .payment-mode {
+        width: 33.7rem;
+    }
+
+    .register-info textarea {
+        height: 10rem;
+        width: 33.2rem;
+    }
+
+    .payment-mode {
+        width: 33.7rem;
+    }
+
+    .register-info select {
+        width: 33.5rem;
+        height: 2rem;
+        text-align: center;
+    }
+
+    main {
+        margin-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    main {
+        margin-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .left {
+        margin-right: 1rem;
+    }
+
+    .register-info input[type=text] {
+        width: 15rem;
+    }
+
+    .payment-mode {
+        width: 15.7rem;
+    }
+
+    .register-info textarea {
+        height: 10rem;
+        width: 15.2rem;
+    }
+
+    .payment-mode {
+        width: 15.7rem;
+    }
+
+    .register-info select {
+        width: 15.5rem;
+        height: 2rem;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    main {
+        margin-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .left {
+        margin-right: 3rem;
+    }
+
+    .register-info input[type=text] {
+        width: 17rem;
+    }
+
+    .payment-mode {
+        width: 17.7rem;
+    }
+
+    .register-info textarea {
+        height: 10rem;
+        width: 17.2rem;
+    }
+
+    .payment-mode {
+        width: 17.7rem;
+    }
+
+    .register-info select {
+        width: 17.5rem;
+        height: 2rem;
+        text-align: center;
+    }
+}
