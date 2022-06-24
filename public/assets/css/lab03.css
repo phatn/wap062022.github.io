@@ -50,7 +50,7 @@ main {
 table, tr, td, th {
     border: 1px solid #eeeee4;
     border-collapse: collapse;
-    padding: 1rem;
+    padding: 0.8rem;
 }
 
 table {
@@ -133,4 +133,9 @@ table tr:nth-child(even) {
 
 .deduct {
     background-color: red; /* Green */
+}
+
+.validation-checker img {
+    width: 6.25rem;
+    height: 2.2rem;
 }

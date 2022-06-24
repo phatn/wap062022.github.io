@@ -290,3 +290,14 @@ label.payment-mode-lbl {
         text-align: center;
     }
 }
+
+.validation-checker {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+}
+
+.validation-checker img {
+    width: 6.25rem;
+    height: 2.2rem;
+}

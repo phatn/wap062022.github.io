@@ -34,5 +34,10 @@ body {
 }
 
 header > h1 {
-    font-size: 3rem;
+    font-size: 2rem;
+}
+
+.validation-checker img {
+    width: 6rem;
+    height: 1.8rem;
 }
