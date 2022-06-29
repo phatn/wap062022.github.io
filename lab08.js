@@ -97,7 +97,7 @@ nums.mysort();
 console.log(nums)
 
 /*
-Question 5 - Singly LinkedList
+Question 4 - Singly LinkedList
 Use Constructor Function
  */
 
@@ -167,7 +167,7 @@ linkedList.print();
 
 
 /*
-Question 5 - Singly LinkedList
+Question 4 - Singly LinkedList
 Use Object Literal
  */
 let myLinkedList = {
